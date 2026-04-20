@@ -9,22 +9,22 @@ Built by [Luke Heka](https://selrai.com.au), Selr AI — we build AI agents for 
 
 ## How to use this repo
 
-1. Open any prompt file in the `prompts/` folder
-2. Copy the fenced ` ```text ` block into Claude (Claude.ai for prompts 1-7, Claude Desktop for 8 + 10)
-3. Fill in the `[[INPUTS]]` at the bottom
-4. Run it
+**Step 1 (5 min) — Let Claude orient itself around YOUR store first.**
+Open [START_HERE.md](START_HERE.md), copy the fenced prompt into Claude, answer 10 quick questions. Claude hands you back a personalised 3-hack run-order based on your actual stack, pain points, and time budget. Don't skip this — running the hacks blind wastes time.
 
-That's it. Every prompt is self-contained.
+**Step 2 — Run the 3 hacks Claude picked for you.**
+Open the prompt files Claude recommended from the `prompts/` folder, copy the fenced ` ```text ` block into Claude (Claude.ai for prompts 1-7, Claude Desktop for 8 + 10), fill in the `[[INPUTS]]` at the bottom, run it.
+
+**Step 3 — When you're ready, connect Claude to your live Shopify store (Hack 10).**
+Once Claude can see your real store data, every other hack becomes 10x more powerful. 10 minutes, one-time setup, free forever.
 
 ---
 
-## ★ Start here: Hack 10 — connect Claude to your Shopify store
-
-**This is the capstone.** Once Claude can see your real store data, every other hack in this workshop becomes 10x more powerful.
+## ★ The capstone: Hack 10 — connect Claude directly to Shopify
 
 - [10 — Shopify Connection (direct MCP)](prompts/10-shopify-connection.md) ★
 
-10 minutes, one-time setup. Free forever. The real answer.
+No Zapier. No n8n. No middleware. Direct API → Claude. The real answer.
 
 ---
 
