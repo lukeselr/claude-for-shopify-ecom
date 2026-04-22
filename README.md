@@ -9,6 +9,10 @@ Built by [Luke Heka](https://selrai.com.au), Selr AI — we build AI agents for 
 
 ## How to use this repo
 
+There are **two paths** depending on what you want to do:
+
+### Path A — Use AI to run smarter marketing & ops (most people start here)
+
 **Step 1 (5 min) — Let Claude orient itself around YOUR store first.**
 Open [START_HERE.md](START_HERE.md), copy the fenced prompt into Claude, answer 10 quick questions. Claude hands you back a personalised 3-hack run-order based on your actual stack, pain points, and time budget. Don't skip this — running the hacks blind wastes time.
 
@@ -17,6 +21,12 @@ Open the prompt files Claude recommended from the `prompts/` folder, copy the fe
 
 **Step 3 — When you're ready, connect Claude to your live Shopify store (Hack 10).**
 Once Claude can see your real store data, every other hack becomes 10x more powerful. 10 minutes, one-time setup, free forever.
+
+### Path B — Build & edit your Shopify site with Claude Code
+
+If the Shopify admin is too slow for making site changes (homepage, product pages, announcement bars, footer, CSS), use [CLAUDE-CODE-SETUP.md](CLAUDE-CODE-SETUP.md). That walks through installing Claude Code + Shopify's official AI Toolkit (released April 9, 2026) so you can edit the theme in plain English with a live preview, then push when you're happy.
+
+Skills folder: `skills/shopify-connector/` (store data ops) and `skills/shopify-theme-workflow/` (theme editing). Copy into `~/.claude/skills/` to auto-load them in Claude Code.
 
 ---
 
@@ -62,6 +72,7 @@ That's what Hack 10 teaches. Everything else plugs into it.
 - A Shopify store (any plan)
 - Claude.ai account — free tier works for most hacks, Pro recommended ($20/mo)
 - For Hacks 8 + 10: Claude Desktop (free — [download](https://claude.ai/download))
+- For Path B (editing your site): Claude Code + Shopify CLI (free — see [CLAUDE-CODE-SETUP.md](CLAUDE-CODE-SETUP.md))
 - For Hack 9: Higgsfield Ultra ($49/mo) for Soul ID training
 - A terminal (macOS: Cmd+Space → "terminal")
 
